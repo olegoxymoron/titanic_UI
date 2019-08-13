@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html {
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+#container {
+	display: flex;
+	margin: 0 auto;
+	min-height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#content {
+	padding: 0px 0px 0px 0px;
+	flex: 1 0 0;
+	background-color: #ddddff;
+}
+
+#content {
+	font-size: 20px;
+	color: black;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+#content {
+	font-size: 16px;
+	display: block;
+	background-image: url('https://the-drive-3.imgix.net/http%3A%2F%2Fd254andzyoxz3f.cloudfront.net%2F0419160-titanic-real-time-hero.jpg?w=1440&auto=compress%2Cformat&ixlib=js-1.2.1&s=e12b13f8ebf8f1204224a9f3ef3facd3');
+}
+
+#content>div {
+	margin: 20px auto 0px auto;
+	height: 95%;
+	width: 70%;
+	background-color: #eeeeee77;
+	border-collapse: collapse;
+  	border-radius: 1em;
+}
+	
+label input {
+	margin: 0px 10px;
+}
+
+form input {
+	height: 40px;
+	width: 350px;
+  	border-radius: 8px;
+  	font-size: 20px;
+}
+
+form > span {
+	font-size: 20px;
+}
+
+span {
+	margin: 5px 0px;
+	font-size: 20px;
+}
+
+span.header {
+	padding: 2px 0 2px 0;
+	margin: 0;
+	font-size: 25px;
+}
+
+.form-inline > label {
+	width: 250px;
+	text-align: right;
+}
+
+.feature_checkbox {
+	margin-left: 8px;
+	display: inline-block;
+}
+
+.feature-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	align-self: center;
+}
+
+.form-buttons {
+	display: flex;
+	align-self: center;
+}
+
+.form-buttons button {
+	height: 40px;
+	width: 100px;
+}
+
+.feature-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-accuracy span {
+	font-size: 30px;
+}
+
+.form-accuracy span:last-child {
+	font-weight: bold;
+}
+
+.form-accuracy span.green {
+	color: green;
+}
+
+.form-accuracy span.red {
+	color: red;
+}
+

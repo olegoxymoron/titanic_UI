@@ -1,0 +1,8 @@
+Django~=2.0.6
+djangorestframework
+sqlparse
+psycopg2
+grequests
+sklearn
+numpy
+pandas
